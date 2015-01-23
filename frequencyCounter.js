@@ -143,7 +143,7 @@ if ( argv._.length == 0 ){
 		return 0;
 	});	
 
-	async.eachLimit( fileList, 10, getWords, function( err ){
+	async.eachLimit( fileList, 5, getWords, function( err ){
 		if ( err ){
 			console.log( err );
 		}
