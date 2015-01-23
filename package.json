@@ -1,0 +1,12 @@
+{
+  "name": "wordfrequencies",
+  "version": "0.1.0",
+  "description": "Counts word frequencies from OpenSubtitles",
+  "author": "John Titus <support@wordsapi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "xml2js": "^0.4.4",
+    "minimist": "^1.1.0"
+  }
+}
