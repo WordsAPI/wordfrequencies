@@ -72,6 +72,18 @@ options:
 -o  <path> Path to write output. Default is frequency.json.
 ```
 
+### cleaner.js
+
+"Cleans" a file created by frequencyCounter.js. Removes words with weird characters and attempts to merge them with the 'clean' version. Fixes contractions.
+
+### merger.js
+
+Merges two or more files created by frequencyCounter.js.  So if you created a JSON file per year, you can use this to combine them into a file spanning multiple years.
+
+### counter.js
+
+Spits out the number of total words, number of unique words, and the top 10 words from a file created by frequencyCounter.js.
+
 ## Output
 
 The result of running these tools will be a JSON file you can slice and dice to your heart's content. You may want to check out [jq](http://stedolan.github.io/jq/) if you just want to peek at the results.
